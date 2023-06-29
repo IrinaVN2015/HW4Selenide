@@ -48,7 +48,7 @@ public class OrderingCardDeliveryTest {
         $("[data-test-id='city'] input").setValue("Чита");
         $("[data-test-id=date] input").sendKeys(Keys.chord(Keys.CONTROL, "a"), Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(newDate);
-        $("[data-test-id=name] input").setValue("Петрова Мария");
+        $("[data-test-id=name] input").setValue("Петрова-Уткина Мария");
         $("[data-test-id='phone'] input").setValue("+79315684565");
         $(".checkbox__box").click();
         $(".button").click();
